@@ -1,0 +1,40 @@
+
+/* importing global font from google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Twinkle Star', cursive;
+}
+
+/* navbar  */
+nav ul{
+     display: flex;
+     list-style-type: none;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     background-color: aquamarine;
+     height: 80px;
+}
+nav ul li a{
+    margin-left: 40px;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(0, 160, 106);
+}
+
+
+
+
+/* shopping card  */
+#card-container{
+    display: flex;
+    margin: 5%;
+    
+}
+.card{
+    margin-left: 20px;
+}
